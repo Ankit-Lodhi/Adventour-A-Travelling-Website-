@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bree Serif', serif;
+}
+.container{
+    text-align: center;
+    background-color: rgb(228, 249, 227);
+}
+.header{
+    padding-top: 60px;
+    color: black;
+    margin: auto;
+    font-size: 30px;
+    line-height: 50px
+}
+
+.sub-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 48px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teams{
+    margin: 10px;
+    padding: 20px;
+    max-width: 30%;
+    cursor: pointer;
+    transition: 0.4s;
+    box-sizing: border-box;
+}
+
+.teams:hover{
+    background-color: grey;
+}
+
+.teams img{
+    width: 153px;
+    height: 159px;
+}
+
+.name{
+    padding: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.desig{
+    font-style: italic;
+    color: rgb(4, 0, 1);
+}
+
+.about{
+    margin: 20px 0;
+    font-weight: lighter;
+    color: #4e4e4e;
+}
+
+.social-links{
+    margin: 14px;
+}
+.social-links a{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    transition: 0.4s;
+}
+.social-links a i:hover{
+    transform: scale(1.5);
+}
