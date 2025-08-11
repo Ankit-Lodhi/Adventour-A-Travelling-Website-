@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/review.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  <section class="review" id="review">
+    <h1 class="heading"> <!--Public --> <span>Review</span></h1>
+
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="img/profile.png">
+                <p>It was a great experience with Adventour .and I am satisfied with the service Thanks for making our trip memorable.</p>
+            <h3> Takshay Shah </h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/profile.png">
+                <p>Hotels were well located , food was also really tasty .Staff was well mannered and Cab Service was good. Travel Agent contacted me each and every day.</p>
+            <h3> Prashasti Singh</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/profile.png">
+                <p>Everything was planned well, we had an amazing trip.It was over all a wonderful trip arranged and I am satisfied with the service . Thank you for your services!</p>
+             <h3>Dr Ragjni </h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="img/profile.png">
+                <p>We had an excellent holiday in SL thanks to Adventour, for taking care of all the logistics and taking good care of us on the road. A seamless and efficient experience.</p>
+             <h3> Shashi Jha</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+  </section>
+
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script>
+    let searchForm = document.querySelector('.search-form');
+
+var swiper = new Swiper(".review-slider", {
+  loop:true,
+  spaceBetween: 20,
+  autoplay: {
+      delay:7500,
+      disableOnInteraction: false,
+  },
+ 
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1020: {
+      slidesPerView: 3,
+    },
+  },
+});
+</script>
+
+</body>
+</html>
